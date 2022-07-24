@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "TheDead";
+	src: url("./fonts/TheDeadAreComing.ttf");
+	}
+
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #b17a4f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #653c1d;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #573317;
+  }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'TheDead';
+}
+
+#paper {
+	background-image: url('images/paper.png');
+    background-size: cover;
+    width: 440px;
+    height: 583px;
+    padding-top: 40px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}	
+
+.content {
+	margin: auto;
+	width: 90%;
+	height: 95%;
+}
+
+#title {
+	font-size: 40px;
+	text-align: center;
+	color: brown;
+}
+
+#text {
+	padding: 10px;
+	overflow-y: auto;
+    height: 475px;
+	color: #582a06;
+}
+
+#close{
+	margin-top: -50px;
+	margin-left: 30px;
+	float: right;
+	font-size: 25px;
+	color: brown;
+	cursor: pointer;
+}
+
+#close:hover{
+	color: rgb(185, 30, 30);
+}
